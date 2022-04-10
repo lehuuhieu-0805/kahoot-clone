@@ -1,6 +1,9 @@
 .body {
+  height: 100vh;
+  width: 100vw;
   background: pink;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -10,7 +13,7 @@
     color: white;
   }
 
-  &__subTitle {
+  &__sub-title {
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -24,7 +27,7 @@
   width: 100%;
   background-color: white;
   height: 68px;
-  padding: 4px 17px;
+  padding: 4px 16px;
   display: flex;
   align-items: center;
 
