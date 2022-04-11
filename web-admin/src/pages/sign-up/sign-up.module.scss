@@ -1,0 +1,47 @@
+.content {
+  height: calc(100vh - 85px);
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__card {
+    padding: 20px;
+    width: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.card {
+  &__title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  & > form {
+    & > button {
+      margin: 20px 0px;
+      width: 100%;
+    }
+  }
+
+  & > button {
+    margin: 10px 0px;
+    border: solid;
+    display: flex;
+    align-items: center;
+
+    & > :nth-child(2) {
+      margin: 0 auto;
+    }
+  }
+
+  & > span {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
