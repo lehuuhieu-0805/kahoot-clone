@@ -1,6 +1,46 @@
 .header {
   padding: 15px;
   background: white;
-  font-size: 30px;
-  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &--left {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  &--right {
+    > button {
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+    > div {
+      color: white;
+      background: black;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}
+
+.modal {
+  &__body {
+    // display: flex;
+    // overflow: hidden;
+    width: 100%;
+    // flex-direction: row-reverse;
+
+    > form {
+      min-width: 600px;
+      width: 55%;
+    }
+
+    > img {
+      width: 45%;
+    }
+  }
 }

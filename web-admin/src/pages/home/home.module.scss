@@ -1,0 +1,75 @@
+.body {
+  height: calc(100vh - 75px);
+  padding: 20px 50px;
+  background: #efefef;
+
+  &__card {
+    height: 150px;
+    background: white;
+    display: grid;
+    grid-template-columns: 20% auto;
+    padding: 5px;
+  }
+}
+
+.card {
+  &__image {
+    background: #efefef;
+    padding: 5px;
+
+    > div {
+      position: relative;
+      top: 100px;
+      float: right;
+      margin-right: 10px;
+      padding: 3px;
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      border-radius: 5px;
+    }
+  }
+
+  &__content {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    padding: 0px 10px;
+    font-weight: bold;
+  }
+
+  &__footer {
+    width: 100%;
+    background: #efefef;
+    height: 50px;
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &--left {
+      font-size: 14px;
+    }
+
+    &--right {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      > div {
+        margin: 6px;
+        font-size: 14px;
+      }
+
+      > button {
+        font-weight: bold;
+        margin: 3px;
+      }
+    }
+  }
+}

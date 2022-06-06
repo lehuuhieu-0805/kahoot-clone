@@ -1,11 +1,9 @@
 import React from 'react'
-import { Header } from '../../components'
 import styles from './sign-up.module.scss'
 
 const SignUp: React.FC = () => {
   return (
     <>
-      <Header />
       <div className={styles.content}>
         <div className={styles.content__card + ' ' + styles.card}>
           <div className={styles.card__title}>Sign Up with your email</div>
@@ -35,7 +33,7 @@ const SignUp: React.FC = () => {
           </button>
           <span>
             Already have an account?&nbsp;
-            <a href="#">Sign In</a>
+            <a href="/sign-in">Sign In</a>
           </span>
         </div>
       </div>
