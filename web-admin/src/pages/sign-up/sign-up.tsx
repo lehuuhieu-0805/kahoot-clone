@@ -6,7 +6,7 @@ const SignUp: React.FC = () => {
     <>
       <div className={styles.content}>
         <div className={styles.content__card + ' ' + styles.card}>
-          <div className={styles.card__title}>Sign Up with your email</div>
+          <div className={styles.card__title}>Sign Up with Your Email</div>
           <form>
             <div className='mb-3'>
               <label htmlFor='InputEmail' className="form-label">Email</label>

@@ -17,8 +17,8 @@ const SignIn: React.FC = () => {
               <input type="password" className='form-control' id="InputPassword" />
             </div>
             <p>
-              Forgot password?&nbsp;
-              <a href='#'>Reset your password</a>
+              Forgot Password?&nbsp;
+              <a href='#'>Reset Your Password</a>
             </p>
             <button type='submit' className='btn btn-primary'>Sign In</button>
           </form>
